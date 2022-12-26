@@ -151,7 +151,7 @@ fn media_sync_endpoint(host_number: u32) -> String {
         } else {
             "".to_string()
         };
-        format!("https://sync{}.ankiweb.net/msync/", suffix)
+        format!("https://sync{}.chriskimmel.com/msync/", suffix)
     }
 }
 

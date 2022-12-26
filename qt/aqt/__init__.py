@@ -65,11 +65,11 @@ except AttributeError:
         sys.stderr = sys.stdout = open(os.devnull, "w", encoding="utf8")
 
 appVersion = _version
-appWebsite = "https://apps.ankiweb.net/"
-appWebsiteDownloadSection = "https://apps.ankiweb.net/#download"
-appDonate = "https://apps.ankiweb.net/support/"
-appShared = "https://ankiweb.net/shared/"
-appUpdate = "https://ankiweb.net/update/desktop"
+appWebsite = "https://apps.chriskimmel.com/"
+appWebsiteDownloadSection = "https://apps.chriskimmel.com/#download"
+appDonate = "https://apps.chriskimmel.com/support/"
+appShared = "https://chriskimmel.com/shared/"
+appUpdate = "https://chriskimmel.com/update/desktop"
 appHelpSite = HELP_SITE
 
 from aqt.main import AnkiQt  # isort:skip

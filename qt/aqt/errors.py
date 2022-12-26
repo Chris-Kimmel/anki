@@ -58,7 +58,7 @@ def is_chromium_cert_error(error: str) -> bool:
         3380365263193509176  | perl -pe 's/.*>(.*)<.*/"$1",/' | sort | uniq
 
     Judging by error reports, we can't assume the error falls on a separate line:
-    https://forums.ankiweb.net/t/topic/22036/
+    https://forums.chriskimmel.com/t/topic/22036/
     """
     if not is_win:
         return False
@@ -235,8 +235,8 @@ class ErrorHandler(QObject):
         elif self.mw.addonManager.dirty:
             # Older translations include a link to the old discussions site; rewrite it to a newer one
             message = tr.errors_addons_active_popup().replace(
-                "https://help.ankiweb.net/discussions/add-ons/",
-                "https://forums.ankiweb.net/c/add-ons/11",
+                "https://help.chriskimmel.com/discussions/add-ons/",
+                "https://forums.chriskimmel.com/c/add-ons/11",
             )
             txt = markdown(message)
             error = f"{supportText() + self._addonText(error)}\n{error}"

@@ -29,37 +29,37 @@ License: GNU AGPL, version 3 or later; http://www.gnu.org/licenses/agpl.html
         maximumInterval: {
             title: tr.schedulingMaximumInterval(),
             help: tr.deckConfigMaximumIntervalTooltip(),
-            url: "https://docs.ankiweb.net/deck-options.html#maximum-interval",
+            url: "https://docs.chriskimmel.com/deck-options.html#maximum-interval",
         },
         startingEase: {
             title: tr.schedulingStartingEase(),
             help: tr.deckConfigStartingEaseTooltip(),
-            url: "https://docs.ankiweb.net/deck-options.html#starting-ease",
+            url: "https://docs.chriskimmel.com/deck-options.html#starting-ease",
         },
         easyBonus: {
             title: tr.schedulingEasyBonus(),
             help: tr.deckConfigEasyBonusTooltip(),
-            url: "https://docs.ankiweb.net/deck-options.html#easy-bonus",
+            url: "https://docs.chriskimmel.com/deck-options.html#easy-bonus",
         },
         intervalModifier: {
             title: tr.schedulingIntervalModifier(),
             help: tr.deckConfigIntervalModifierTooltip(),
-            url: "https://docs.ankiweb.net/deck-options.html#interval-modifier",
+            url: "https://docs.chriskimmel.com/deck-options.html#interval-modifier",
         },
         hardInterval: {
             title: tr.schedulingHardInterval(),
             help: tr.deckConfigHardIntervalTooltip(),
-            url: "https://docs.ankiweb.net/deck-options.html#hard-interval",
+            url: "https://docs.chriskimmel.com/deck-options.html#hard-interval",
         },
         newInterval: {
             title: tr.schedulingNewInterval(),
             help: tr.deckConfigNewIntervalTooltip(),
-            url: "https://docs.ankiweb.net/deck-options.html#new-interval",
+            url: "https://docs.chriskimmel.com/deck-options.html#new-interval",
         },
         customScheduling: {
             title: tr.deckConfigCustomScheduling(),
             help: tr.deckConfigCustomSchedulingTooltip(),
-            url: "https://faqs.ankiweb.net/the-2021-scheduler.html#add-ons-and-custom-scheduling",
+            url: "https://faqs.chriskimmel.com/the-2021-scheduler.html#add-ons-and-custom-scheduling",
         },
     };
     const helpSections = Object.values(settings) as DeckOption[];
@@ -76,7 +76,7 @@ License: GNU AGPL, version 3 or later; http://www.gnu.org/licenses/agpl.html
 <TitledContainer title={tr.deckConfigAdvancedTitle()}>
     <HelpModal
         title={tr.deckConfigAdvancedTitle()}
-        url="https://docs.ankiweb.net/deck-options.html#advanced"
+        url="https://docs.chriskimmel.com/deck-options.html#advanced"
         slot="tooltip"
         {helpSections}
         on:mount={(e) => {

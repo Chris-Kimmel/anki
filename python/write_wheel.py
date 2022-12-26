@@ -199,7 +199,7 @@ write_wheel(
         "Requires-Python": ">=3.9",
         "_dependencies": all_requires,
     },
-    description="Please see https://apps.ankiweb.net\n\n",
+    description="Please see https://apps.chriskimmel.com\n\n",
     contents=contents,
     entrypoints=entrypoints,
     top_level=top_level,

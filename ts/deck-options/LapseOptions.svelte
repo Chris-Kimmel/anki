@@ -42,22 +42,22 @@ License: GNU AGPL, version 3 or later; http://www.gnu.org/licenses/agpl.html
         relearningSteps: {
             title: tr.deckConfigRelearningSteps(),
             help: tr.deckConfigRelearningStepsTooltip(),
-            url: "https://docs.ankiweb.net/deck-options.html#relearning-steps",
+            url: "https://docs.chriskimmel.com/deck-options.html#relearning-steps",
         },
         minimumInterval: {
             title: tr.schedulingMinimumInterval(),
             help: tr.deckConfigMinimumIntervalTooltip(),
-            url: "https://docs.ankiweb.net/deck-options.html#minimum-interval",
+            url: "https://docs.chriskimmel.com/deck-options.html#minimum-interval",
         },
         leechThreshold: {
             title: tr.schedulingLeechThreshold(),
             help: tr.deckConfigLeechThresholdTooltip(),
-            url: "https://docs.ankiweb.net/leeches.html#leeches",
+            url: "https://docs.chriskimmel.com/leeches.html#leeches",
         },
         leechAction: {
             title: tr.schedulingLeechAction(),
             help: tr.deckConfigLeechActionTooltip(),
-            url: "https://docs.ankiweb.net/leeches.html#waiting",
+            url: "https://docs.chriskimmel.com/leeches.html#waiting",
         },
     };
     const helpSections = Object.values(settings) as DeckOption[];
@@ -74,7 +74,7 @@ License: GNU AGPL, version 3 or later; http://www.gnu.org/licenses/agpl.html
 <TitledContainer title={tr.schedulingLapses()}>
     <HelpModal
         title={tr.schedulingLapses()}
-        url="https://docs.ankiweb.net/deck-options.html#lapses"
+        url="https://docs.chriskimmel.com/deck-options.html#lapses"
         slot="tooltip"
         {helpSections}
         on:mount={(e) => {

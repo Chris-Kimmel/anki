@@ -387,7 +387,7 @@ fn sync_endpoint(host_number: u32) -> String {
         } else {
             "".to_string()
         };
-        format!("https://sync{}.ankiweb.net/sync/", suffix)
+        format!("https://sync{}.chriskimmel.com/sync/", suffix)
     }
 }
 

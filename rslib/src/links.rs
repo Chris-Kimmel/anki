@@ -3,7 +3,7 @@
 
 pub use crate::pb::links::help_page_link_request::HelpPage;
 
-static HELP_SITE: &str = "https://docs.ankiweb.net/";
+static HELP_SITE: &str = "https://docs.chriskimmel.com/";
 
 impl HelpPage {
     pub fn to_link(self) -> String {

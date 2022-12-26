@@ -332,7 +332,7 @@ where id = ? and flds != ?""",
                 fields[sidx] = note.fields[c]
         note.fieldsStr = join_fields(fields)
         # temporary fix for the following issue until we can update the code:
-        # https://forums.ankiweb.net/t/python-checksum-rust-checksum/8195/16
+        # https://forums.chriskimmel.com/t/python-checksum-rust-checksum/8195/16
         if self.col.get_config_bool(Config.Bool.NORMALIZE_NOTE_TEXT):
             note.fieldsStr = unicodedata.normalize("NFC", note.fieldsStr)
 

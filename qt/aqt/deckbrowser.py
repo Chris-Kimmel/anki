@@ -116,7 +116,7 @@ class DeckBrowser:
         elif cmd == "v2upgrade":
             self._confirm_upgrade()
         elif cmd == "v2upgradeinfo":
-            openLink("https://faqs.ankiweb.net/the-anki-2.1-scheduler.html")
+            openLink("https://faqs.chriskimmel.com/the-anki-2.1-scheduler.html")
         return False
 
     def set_current_deck(self, deck_id: DeckId) -> None:

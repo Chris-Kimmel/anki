@@ -133,12 +133,12 @@
         newLimit: {
             title: tr.schedulingNewCardsday(),
             help: tr.deckConfigNewLimitTooltip() + v3Extra,
-            url: "https://docs.ankiweb.net/deck-options.html#new-cardsday",
+            url: "https://docs.chriskimmel.com/deck-options.html#new-cardsday",
         },
         reviewLimit: {
             title: tr.schedulingMaximumReviewsday(),
             help: tr.deckConfigReviewLimitTooltip() + v3Extra,
-            url: "https://docs.ankiweb.net/deck-options.html#maximum-reviewsday",
+            url: "https://docs.chriskimmel.com/deck-options.html#maximum-reviewsday",
         },
     };
     const helpSections = Object.values(settings) as DeckOption[];
@@ -155,7 +155,7 @@
 <TitledContainer title={tr.deckConfigDailyLimits()}>
     <HelpModal
         title={tr.deckConfigDailyLimits()}
-        url="https://docs.ankiweb.net/deck-options.html#daily-limits"
+        url="https://docs.chriskimmel.com/deck-options.html#daily-limits"
         slot="tooltip"
         {helpSections}
         on:mount={(e) => {

@@ -954,7 +954,7 @@ class Collection(DeprecatedNamesMixin):
 
         If you wish to display the stats in a HTML table like Anki does,
         you can use the .js file directly - see this add-on for an example:
-        https://ankiweb.net/shared/info/2179254157
+        https://chriskimmel.com/shared/info/2179254157
         """
         return self._backend.card_stats(card_id)
 

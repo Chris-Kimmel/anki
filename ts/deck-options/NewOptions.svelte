@@ -58,22 +58,22 @@ License: GNU AGPL, version 3 or later; http://www.gnu.org/licenses/agpl.html
         learningSteps: {
             title: tr.deckConfigLearningSteps(),
             help: tr.deckConfigLearningStepsTooltip(),
-            url: "https://docs.ankiweb.net/deck-options.html#learning-steps",
+            url: "https://docs.chriskimmel.com/deck-options.html#learning-steps",
         },
         graduatingInterval: {
             title: tr.schedulingGraduatingInterval(),
             help: tr.deckConfigGraduatingIntervalTooltip(),
-            url: "https://docs.ankiweb.net/deck-options.html#graduating-interval",
+            url: "https://docs.chriskimmel.com/deck-options.html#graduating-interval",
         },
         easyInterval: {
             title: tr.schedulingEasyInterval(),
             help: tr.deckConfigEasyIntervalTooltip(),
-            url: "https://docs.ankiweb.net/deck-options.html#easy-interval",
+            url: "https://docs.chriskimmel.com/deck-options.html#easy-interval",
         },
         insertionOrder: {
             title: tr.deckConfigNewInsertionOrder(),
             help: tr.deckConfigNewInsertionOrderTooltip(),
-            url: "https://docs.ankiweb.net/deck-options.html#insertion-order",
+            url: "https://docs.chriskimmel.com/deck-options.html#insertion-order",
         },
     };
     const helpSections = Object.values(settings) as DeckOption[];
@@ -90,7 +90,7 @@ License: GNU AGPL, version 3 or later; http://www.gnu.org/licenses/agpl.html
 <TitledContainer title={tr.schedulingNewCards()}>
     <HelpModal
         title={tr.schedulingNewCards()}
-        url="https://docs.ankiweb.net/deck-options.html#new-cards"
+        url="https://docs.chriskimmel.com/deck-options.html#new-cards"
         slot="tooltip"
         {helpSections}
         on:mount={(e) => {
